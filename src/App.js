@@ -1,14 +1,24 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import './App.css';
-
+import ProjectCard from "./components/ProjectCard/projectcard";
 
 class App extends Component {
 
+  state = {
+    project: "",
+    title: "",
+    overview: ""
+
+  }
 
   render(){
     return(
-      <h1>Hello World</h1>
+      <div>
+        <ProjectCard 
+        title="Hello World"
+        />
+      </div>
     )
   }
 }
