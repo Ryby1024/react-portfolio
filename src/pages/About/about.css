@@ -1,0 +1,26 @@
+#about  {
+    text-align: center;
+    color: black
+}
+
+h2  {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+body{
+    background-image: radial-gradient(white, grey);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#about-text  {
+    text-align: center;
+    margin-top: 10px;
+    padding: auto;
+}
+
+#roy-picture    {
+    margin-top: 10px;
+}
