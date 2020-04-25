@@ -10,7 +10,7 @@ const defaultStyles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: '2em',
+    fontSize: '1em',
     fontFamily: "'Kanit', sans-serif",
     textTransform: 'uppercase',
     
@@ -19,7 +19,7 @@ const defaultStyles = {
 
   export default class About extends React.PureComponent {
 
-    state = { header: [],
+    state = { items: [],
 
     }
 

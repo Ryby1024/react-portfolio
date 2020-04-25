@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
     return(
         <div className="card">
             <div className="card-image">
-            <img className="project" src={props.project} />
+            <img className="project-picture" src={props.image} />
             </div>
             <div className="card-content">
                 <h4>{props.title}</h4>
