@@ -4,6 +4,7 @@
 .skillName  {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .skill-card div {
@@ -23,7 +24,4 @@
 
 .skill-card div:hover img {
     transform: scale(1.1);
-}
-.skill-card div:hover div {
-    transform: scale(1.05);
 }
