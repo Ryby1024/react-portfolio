@@ -11,6 +11,8 @@ export default class About extends React.PureComponent {
     return (
       <div id="about">
         <div className="container">
+          <div className="row">
+            <div className="col s12">
           <div className="box">
 
             <div className="title">
@@ -21,6 +23,8 @@ export default class About extends React.PureComponent {
             <div className="role">
               <div className="block"></div>
               <p>Full Stack Web Developer</p>
+            </div>
+            </div>
             </div>
 
           </div>

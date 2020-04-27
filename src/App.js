@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import './App.css';
-import ProjectCard from "./components/ProjectCard/projectcard";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";

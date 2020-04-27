@@ -3,6 +3,7 @@
     color: white
 }
 
+
 body{
     background-image: radial-gradient(grey, rgb(49, 48, 48));
     height: 100%;
@@ -38,7 +39,7 @@ body{
   }
   .container .box .title h1 {
     font-family: 'Poppins';
-    color: #fff;
+    color: white;
     font-size: 32px;
     -webkit-animation: mainFadeIn 2s forwards;
     -o-animation: mainFadeIn 2s forwards;
@@ -46,8 +47,8 @@ body{
     animation-delay: 1.6s;
     opacity: 0;
     display: flex;
-    align-items: baseline;
-    position: relative;
+    
+    
   }
   .container .box .title h1 span {
     width: 0px;
@@ -88,7 +89,7 @@ body{
     opacity: 0;
     font-weight: 400;
     font-family: 'Lato';
-    color: #ffffff;
+    color: white;
     font-size: 20px;
     margin-top: 10px;
     text-transform: uppercase;
@@ -157,19 +158,13 @@ body{
       height: 10px;
       bottom: 20px;
     }
-    /* 100% {
-      width: 7px;
-      height: 7px;
-      background: #e9d856;
-      border: 0px solid #222;
-      bottom: 13px;
-    } */
+
   }
   @keyframes secFadeIn {
     0% {
       opacity: 0;
     }
     100% {
-      opacity: 0.5;
+      opacity: 1;
     }
   }

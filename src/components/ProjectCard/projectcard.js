@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     return(
         <div className="card horizontal project">
             <div className="card-image">
-            <img className="project-picture" src={props.image} />
+            <img className="project-picture" src={props.image} alt="" />
             </div>
             <div className="card-stacked">
             <div className="card-content">
