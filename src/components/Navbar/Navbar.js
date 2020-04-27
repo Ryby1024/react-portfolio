@@ -7,6 +7,7 @@ class Navbar extends Component {
 
     render() {
         return (
+            <div className="navbar-fixed">
             <nav className="navigationBar">
                 <Link className="brand-logo" to="/">
                     About
@@ -33,6 +34,7 @@ class Navbar extends Component {
                     </li>
                 </ul>
             </nav>
+            </div>
         )
     }
 }
