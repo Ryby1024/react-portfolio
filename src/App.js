@@ -4,7 +4,8 @@ import './App.css';
 import ProjectCard from "./components/ProjectCard/projectcard";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
-import Portfolio from "./pages/Portfolio/Portfolio"
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Skills from "./pages/Skills/Skills";
 
 
 class App extends Component {
@@ -25,6 +26,10 @@ class App extends Component {
         </Route>
         <Route exact path="/portfolio">
           <Portfolio />
+        </Route>
+
+        <Route exact path="/skills">
+          <Skills />
         </Route>
       </Router>
     )

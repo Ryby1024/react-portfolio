@@ -1,4 +1,12 @@
-.project div {
+.skill-icon {
+    padding: 3px;
+}
+.skillName  {
+    background-color: black;
+    color: white;
+}
+
+.skill-card div {
     cursor: pointer;
     pointer-events: all;
     box-shadow: 5px 5px 0px 0 #3a1372;
@@ -7,16 +15,15 @@
     object-fit:cover;
   }
 
-.project div img {
+.skill-card div img {
     width:auto;
     height: auto;
     transition: transform 1s;
   }
 
-.project div:hover img {
+.skill-card div:hover img {
     transform: scale(1.1);
 }
-.project div:hover div {
+.skill-card div:hover div {
     transform: scale(1.05);
 }
-
