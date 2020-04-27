@@ -1,0 +1,22 @@
+#project div {
+    cursor: pointer;
+    pointer-events: all;
+    box-shadow: 5px 5px 0px 0 #3a1372;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit:cover;
+  }
+
+#project div img {
+    width:auto;
+    height: auto;
+    transition: transform 1s;
+  }
+
+#project div:hover img {
+    transform: scale(1.1);
+}
+#project div:hover div {
+    transform: scale(1.05);
+}
+

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import ProjectCard from "../../components/ProjectCard/projectcard";
 import "./portfolio.css";
+
 class Portfolio extends Component {
+
+    
 
     state= {
         projects: [],
@@ -82,6 +85,7 @@ class Portfolio extends Component {
     }
 
     render(){
+        
         return(
             <div className="container">
                 <div className="row">
