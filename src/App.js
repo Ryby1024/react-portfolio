@@ -9,13 +9,6 @@ import Contact from "./pages/Contact/Contact";
 
 class App extends Component {
 
-  state = {
-    project: "",
-    title: "",
-    overview: ""
-
-  }
-
   render(){
     return(
       <Router>
@@ -23,7 +16,7 @@ class App extends Component {
         <Route exact path="/">
           <About />
         </Route>
-        <Route exact path="/portfolio">
+        <Route exact path="/projects">
           <Portfolio />
         </Route>
 

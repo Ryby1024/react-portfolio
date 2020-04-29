@@ -21,7 +21,7 @@ class Contact extends Component {
                         <i className="small material-icons">email</i>
                     </div>
                     <div className="col s3">
-                       <p id="email"><a href="mailto: myroy1024@gmail.com" target="blank">myroy1024@gmail.com</a></p>
+                       <p id="email"><a href="mailto: myroy1024@gmail.com"style={{color:"#66F2F7"}} target="blank">myroy1024@gmail.com</a></p>
                     </div>
                 </div>
                 <div className="row" id="phone-row">
@@ -29,7 +29,7 @@ class Contact extends Component {
                         <i className="small material-icons">phone</i>
                     </div>
                     <div className="col s3">
-                        <p id="phone-number">(407)-461-7433</p>
+                        <p id="phone-number"style={{color:"#66F2F7"}}>(407)-461-7433</p>
                     </div>
                 </div>
                 
@@ -39,7 +39,7 @@ class Contact extends Component {
                     </div>
 
                     <div className="col s3">
-                        <p id="github-info"><a href="https://github.com/Ryby1024" target="blank">https://github.com/Ryby1024 </a></p>
+                        <p id="github-info"><a href="https://github.com/Ryby1024" style={{color:"#66F2F7"}}target="blank">https://github.com/Ryby1024 </a></p>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ class Contact extends Component {
                     </div>
 
                     <div className="col s3">
-                        <p id="linkedin-info"><a href="https://www.linkedin.com/in/roy-davis-a0457265/" target="blank">https://bit.ly/35rgOaJ</a></p>
+                        <p id="linkedin-info"><a href="https://www.linkedin.com/in/roy-davis-a0457265/" style={{color:"#66F2F7"}} target="blank">https://bit.ly/35rgOaJ</a></p>
                     </div>
                 </div>
             </div>

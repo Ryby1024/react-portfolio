@@ -22,8 +22,8 @@ class Navbar extends Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                            Portfolio
+                        <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+                            Projects
                         </Link>
                     </li>
 

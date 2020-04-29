@@ -32,7 +32,7 @@ export default class About extends React.PureComponent {
 
 
 
-        <div className="container" onClick={() => this.componentDidMount()}>
+        <div className="container">
           <div className="row">
             <div className="col s6">
               <div id="roy-picture">

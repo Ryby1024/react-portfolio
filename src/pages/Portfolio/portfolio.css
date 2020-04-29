@@ -19,4 +19,16 @@
 .project div:hover div {
     transform: scale(1.05);
 }
+.card-content {
+  background-color: rgb(59, 57, 57);
+  color:white;
+}
+
+#learn-more {
+  margin: 5px;
+}
+#learn-more, #try-me  {
+  background-color: white;
+  color: black;
+}
 

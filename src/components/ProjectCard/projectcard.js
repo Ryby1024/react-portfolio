@@ -11,8 +11,8 @@ const ProjectCard = (props) => {
             <div className="card-content">
                 <h4>{props.title}</h4>
                 <p>{props.overview}</p>
-                <button className="btn waves-effect waves-light" id="learn" onClick={() => props.gitHub()}>Learn More</button>
-                <button className="btn waves-effect waves-light" id="try" onClick={() => props.tryProject()}>Try Me</button>
+                <a className="btn" id="learn-more" href={props.github} rel="noopener noreferrer" target="_blank">Learn More</a>
+                <a className="btn" id="try-me" href={props.deployment} rel="noopener noreferrer" target="_blank">Try Me</a>
             </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectCard from "../../components/ProjectCard/projectcard";
+import { withRouter } from "react-router-dom";
 import "./portfolio.css";
 
 class Portfolio extends Component {
@@ -11,7 +12,9 @@ class Portfolio extends Component {
         id: 0,
         title: "",
         overview: "",
-        image: ""
+        image: "",
+        github: "",
+        link: ""
     }
     componentDidMount() {
         this.setProjects();
@@ -22,41 +25,53 @@ class Portfolio extends Component {
             id: 1,
             title: "Brew Finder",
             overview: "Location finder for closest brewerys to current locale. It uses HTML5, Javascript, CSS3, JQuery, Bootstrap, AJAX, and the Here Maps API as well as the Open Brewery DB API. The Guardian API was also used for the carousel.",
-            image: "./images/beer.jpg"
+            image: "./images/beer.jpg",
+            github: "https://github.com/Ryby1024/BrewFinder",
+            deployment: "https://mc180g.github.io/BrewFinder/index.html"
         },
         {
             id: 2,
             title: "Cash Money",
             overview: "Full-stack application where users can create a budget, track spending, and plan for upcoming bills. To start, the user will only be allowed access to the Register or Login pages. Upon registering as a new user or logging in as an existing user, they will be able to access all of the application's pages. They will also have a personalized greeting with their first name printed to the navbar for all subsequent pages. This application uses HTML5, CSS3, Javascript, Bootstrap4, React.js, MongoDB, Mongoose, Express.js, Node.js, Axios, React Chartjs2, and FullCalendar.",
-            image: "./images/money.jpg"
+            image: "./images/money.jpg",
+            github: "https://github.com/Ryby1024/budget-app",
+            deployment: "https://stormy-beyond-27196.herokuapp.com/"
         },
 
         {
             id: 3,
             title: "unWrapped",
             overview: "A party planning web application that allows users to create and rsvp to parties while also keeping track of guests, gifts and if they sent a thank you note. This application uses HTML5, CSS3, Javascript, Bootstrap4, JQuery, MySql, Sequalize, Express.js, Node.js, Express-handlebars and Randomatic.",
-            image: "./images/gift.jpg"
+            image: "./images/gift.jpg",
+            github: "https://github.com/Ryby1024/unWrapped",
+            deployment: "https://unwrappedgifts.herokuapp.com/"
         },
 
         {
             id: 4,
             title: "Friend Finder",
             overview: "To use this app, a user must answer 10 survey questions. The answers range from 1 (Strongly Disagree) and go to 5 (Strongly Agree). Based on the responses the user gives, the app will match them with someone that most closely fits with the answers they gave. This application uses HTML5, CSS3, Javascript, JQuery, Bootstrap4, and Express.js.",
-            image: "./images/love.jpg"
+            image: "./images/love.jpg",
+            github: "https://github.com/Ryby1024/Friend-Finder",
+            deployment: "https://arcane-journey-78495.herokuapp.com/"
         },
 
         {
             id: 5,
             title: "Scraped",
             overview: "An app that scrapes the technology section of the New York Times. It uses HTML5, Javascript, CSS3, Materialize, JQuery, Mongoose, Mongo DB, Handlebars.js, Express.js and Node.js.",
-            image: "./images/paper.jpg"
+            image: "./images/paper.jpg",
+            github: "https://github.com/Ryby1024/scraped",
+            deployment: "https://evening-thicket-08549.herokuapp.com/"
         },
 
         {
             id: 6,
             title: "Bamazon",
             overview: "This app allows users to preview items for sale or purchase an item from the list of available items that are stored in a mysql database we created. There is also a manager function that allows you to keep tabs on the 'business'. This application uses Javascript, Node.js, JQuery and MySql.",
-            image: "./images/bamazon.jpg"
+            image: "./images/bamazon.jpg",
+            github: "https://github.com/Ryby1024/node-mysql",
+            deployment: "https://github.com/Ryby1024/node-mysql"
         }
     ]
     setProjects = () => {
@@ -79,6 +94,8 @@ class Portfolio extends Component {
                 title={project.title}
                 overview={project.overview}
                 image={project.image}
+                github={project.github}
+                deployment={project.deployment}
                 />
             })
         }
@@ -99,4 +116,4 @@ class Portfolio extends Component {
         )
     }
 }
-export default Portfolio;
+export default withRouter(Portfolio);
