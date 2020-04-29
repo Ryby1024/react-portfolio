@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Skills from "./pages/Skills/Skills";
-
+import Contact from "./pages/Contact/Contact";
 
 class App extends Component {
 
@@ -29,6 +29,10 @@ class App extends Component {
 
         <Route exact path="/skills">
           <Skills />
+        </Route>
+
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Router>
     )
