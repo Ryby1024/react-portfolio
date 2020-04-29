@@ -8,7 +8,7 @@ const SkillCard = (props) => {
                 <img className="skill-icon" src={props.image} alt="" />
             </div>
             <div className="card-content skillName">
-                <h4>{props.name}</h4>
+                <h4 className="skill-title">{props.name}</h4>
             </div>
         </div>
         </div>
