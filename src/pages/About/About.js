@@ -22,7 +22,7 @@ export default class About extends React.PureComponent {
 
             <div className="role">
               <div className="block"></div>
-              <p>Full Stack Web Developer</p>
+              <p id="role">Full Stack Web Developer</p>
             </div>
             </div>
             </div>
@@ -36,7 +36,7 @@ export default class About extends React.PureComponent {
           <div className="row">
             <div className="col s6">
               <div>
-                <img id="roy-picture" src={"./images/RoynMy.jpg"} alt="" />
+                <img className="responsive-img" id="roy-picture" src={"./images/RoynMy.jpg"} alt="" />
               </div>
             </div>
 

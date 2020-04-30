@@ -32,7 +32,7 @@ class Portfolio extends Component {
         {
             id: 2,
             title: "Cash Money",
-            overview: "Full-stack application where users can create a budget, track spending, and plan for upcoming bills. To start, the user will only be allowed access to the Register or Login pages. Upon registering as a new user or logging in as an existing user, they will be able to access all of the application's pages. They will also have a personalized greeting with their first name printed to the navbar for all subsequent pages. This application uses HTML5, CSS3, Javascript, Bootstrap4, React.js, MongoDB, Mongoose, Express.js, Node.js, Axios, React Chartjs2, and FullCalendar.",
+            overview: "Full-stack application where users can create a budget, track spending, and plan for upcoming bills. To start, the user will only be allowed access to the Register or Login pages. This application uses HTML5, CSS3, Javascript, Bootstrap4, React.js, MongoDB, Mongoose, Express.js, Node.js, Axios, React Chartjs2, and FullCalendar.",
             image: "./images/money.jpg",
             github: "https://github.com/Ryby1024/budget-app",
             deployment: "https://stormy-beyond-27196.herokuapp.com/"

@@ -169,3 +169,18 @@ body{
       opacity: 1;
     }
   }
+  @media only screen and (max-width: 760px)  {
+    #about-text {
+      font-size: 12px;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px) {
+    #Roy  {
+      font-size: 18px;
+    }
+    #role {
+      font-size: 12px;
+    }
+  }

@@ -26,7 +26,7 @@ class Navbar extends Component {
                             About
                 </NavLink>
 
-                        <ul id="nav-mobile" className="right hide-on-med-and-down">
+                        <ul id="nav-mobile" className="right">
 
 
                             <li>
