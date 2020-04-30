@@ -1,39 +1,62 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import $ from "jquery";
 import "../Navbar/navbar.css";
+
+
+
 
 
 class Navbar extends Component {
 
+
+
+
+
+
     render() {
         return (
             <div className="navbar-fixed">
-            <nav className="navigationBar">
-                <Link className="brand-logo" to="/">
-                    About
-                </Link>
+                <nav className="navbar">
+                    <div className="nav-wrapper">
+                        <NavLink id="about-me" exact
+                            activeClassName="navbar__link--active"
+                            className="navbar__link"
+                            to="/">
+                            About
+                </NavLink>
 
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
+                        <ul id="nav-mobile" className="right hide-on-med-and-down">
 
 
-                    <li>
-                        <Link to="/skills" className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}>
-                            Technical Skills
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
-                            Projects
-                        </Link>
-                    </li>
+                            <li>
+                                <NavLink exact
+                                    activeClassName="navbar__link--active"
+                                    className="navbar__link"
+                                    to="/skills">
+                                    Technical Skills
+                        </NavLink>
+                            </li>
+                            <li>
+                                <NavLink exact
+                                    activeClassName="navbar__link--active"
+                                    className="navbar__link"
+                                    to="/projects">
+                                    Projects
+                        </NavLink>
+                            </li>
 
-                    <li>
-                        <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                            Contact Me
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+                            <li>
+                                <NavLink exact
+                                    activeClassName="navbar__link--active"
+                                    className="navbar__link"
+                                    to="/contact">
+                                    Contact Me
+                        </NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         )
     }

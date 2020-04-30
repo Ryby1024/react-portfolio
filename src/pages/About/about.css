@@ -3,7 +3,6 @@
     color: white
 }
 
-
 body{
     background-image: radial-gradient(grey, rgb(49, 48, 48));
     height: 100%;
@@ -26,6 +25,7 @@ body{
 #roy-picture    {
     margin-top: 10px;
     float: left;
+    border-radius: 20px;
 }
   .container .box .title {
     width: 100%;

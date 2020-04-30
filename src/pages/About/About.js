@@ -17,7 +17,7 @@ export default class About extends React.PureComponent {
 
             <div className="title">
               <span className="block"></span>
-              <h1>Roy Davis<span></span></h1>
+              <h1 id="Roy">Roy Davis<span></span></h1>
             </div>
 
             <div className="role">
@@ -35,8 +35,8 @@ export default class About extends React.PureComponent {
         <div className="container">
           <div className="row">
             <div className="col s6">
-              <div id="roy-picture">
-                <img src={"./images/roy.png"} alt="" />
+              <div>
+                <img id="roy-picture" src={"./images/RoynMy.jpg"} alt="" />
               </div>
             </div>
 
