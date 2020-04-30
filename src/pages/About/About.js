@@ -1,10 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import "../About/about.css"
 
 
 
 
-export default class About extends React.PureComponent {
+export default class About extends Component {
 
 
   render() {

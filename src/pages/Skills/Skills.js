@@ -17,7 +17,7 @@ class Skills extends Component{
         {
             id: 1,
             name: "HTML",
-            image: "images/html5.png",
+            image: "./images/html5.png",
         },    
         {
             id: 2,
