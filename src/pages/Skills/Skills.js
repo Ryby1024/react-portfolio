@@ -112,6 +112,9 @@ class Skills extends Component{
         return(
             <div className="container">
                 <div className="row">
+                    <h1 id="skills">Techinical Skills</h1>
+                </div>
+                <div className="row">
                 {this.mySkills}
                 </div>
             </div>

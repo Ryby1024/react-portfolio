@@ -106,6 +106,9 @@ class Portfolio extends Component {
         return(
             <div className="container">
                 <div className="row">
+                    <h1 id="myProjects"> Projects</h1>
+                </div>
+                <div className="row">
                     <div className="col s12">
                         {this.myProjects}}
                     </div>
