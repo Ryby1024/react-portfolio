@@ -6,7 +6,7 @@ import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Skills from "./pages/Skills/Skills";
 import Contact from "./pages/Contact/Contact";
-
+import Footer from "./components/Footer/Footer";
 class App extends Component {
 
   render(){
@@ -27,7 +27,9 @@ class App extends Component {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        <Footer />
       </Router>
+     
     )
   }
 }

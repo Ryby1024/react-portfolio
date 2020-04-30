@@ -43,7 +43,9 @@ export default class About extends Component {
             <div className="col s6">
               <div id="about-text">
                 <p>Full Stack Web Developer with extensive retail experience. Graduate of the University of Central Florida Coding Boot Camp with skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, AJax, JSON, Node.js, Express.js, Mysql,
-                    Mongo DB and React.js. Degree in Computer IT from  Valencia College. My goal as a developer is to create intuitive user experiences, develop responsive websites, and create visually stunning websites.</p> <p> My background in retail has given me invaluable experience working in a team environment and putting the needs of the customer first.</p>
+                    Mongo DB and React.js. Degree in Computer IT from  Valencia College. My goal as a developer is to create intuitive user experiences, develop responsive websites, and create visually stunning websites.</p> <p> My background in retail has given me invaluable experience working in a team environment and putting the needs of the customer first.</p> <p>To view my resume <a
+                            href="https://docs.google.com/document/d/1VIelLpeTdoYC_Ma-vcAzCdBT5g7KNPKWkjwnFw80dwQ/edit?usp=sharing"
+                            target="blank">click here</a>.</p>
 
               </div>
             </div>
