@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import ProjectCard from "../../components/ProjectCard/projectcard";
-import { withRouter } from "react-router-dom";
 import "./portfolio.css";
 
-class Portfolio extends Component {
+export default class Portfolio extends Component {
 
-    
 
-    state= {
+
+    state = {
         projects: [],
         id: 0,
         title: "",
@@ -81,42 +80,43 @@ class Portfolio extends Component {
             projects: newProjects
         })
     }
-    
-    get myProjects(){
-        const {projects} = this.state
+
+    get myProjects() {
+        const { projects } = this.state
         console.log(projects)
-        if (Array.isArray(projects)){
+        if (Array.isArray(projects)) {
             return projects.map(project => {
                 console.log("hello")
                 return <ProjectCard
-                key={project.id}
-                id={project.id}
-                title={project.title}
-                overview={project.overview}
-                image={project.image}
-                github={project.github}
-                deployment={project.deployment}
+                    key={project.id}
+                    id={project.id}
+                    title={project.title}
+                    overview={project.overview}
+                    image={project.image}
+                    github={project.github}
+                    deployment={project.deployment}
                 />
             })
         }
     }
 
-    render(){
-        
-        return(
+    render() {
+
+        return (
             <div className="container">
                 <div className="row">
                     <h1 id="myProjects"> Projects</h1>
                 </div>
                 <div className="row">
                     <div className="col s12">
-                        {this.myProjects}}
+                        {this.myProjects}
                     </div>
                 </div>
 
             </div>
-            
+
         )
     }
 }
-export default withRouter(Portfolio);
+
+
