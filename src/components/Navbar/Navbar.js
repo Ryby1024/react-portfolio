@@ -30,7 +30,7 @@ class Navbar extends Component {
 
 
                             <li>
-                                <NavLink exact
+                                <NavLink id="navLink1" exact
                                     activeClassName="navbar__link--active"
                                     className="navbar__link"
                                     to="/skills">
@@ -38,7 +38,7 @@ class Navbar extends Component {
                         </NavLink>
                             </li>
                             <li>
-                                <NavLink exact
+                                <NavLink id="navLink2" exact
                                     activeClassName="navbar__link--active"
                                     className="navbar__link"
                                     to="/projects">
@@ -47,7 +47,7 @@ class Navbar extends Component {
                             </li>
 
                             <li>
-                                <NavLink exact
+                                <NavLink id="navLink3" exact
                                     activeClassName="navbar__link--active"
                                     className="navbar__link"
                                     to="/contact">

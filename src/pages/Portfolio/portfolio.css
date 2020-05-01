@@ -35,10 +35,10 @@
   color:white;
 }
 
-#learn-more {
+.learn-more {
   margin: 5px;
 }
-#learn-more, #try-me  {
+.learn-more, .try-me  {
   background-color: white;
   color: black;
 }
@@ -69,4 +69,39 @@
 #myProjects {
   animation: 1s ease-in 0s 1 slideInFromRight;
 }
+@media only screen and (max-width: 750px) {
+  .description  {
+    font-size: 10px;
+  }
+}
 
+@media only screen and (max-width: 640px) {
+  .learn-more, .try-me {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .project-picture  {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 597px) {
+  .title {
+    font-size: 16px;
+  }
+  .description  {
+    font-size: 10px;
+  }
+  .card-image .project-picture  {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .learn-more, .try-me  {
+    font-size: 10px;
+  }
+}
