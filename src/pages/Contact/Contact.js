@@ -8,7 +8,7 @@ class Contact extends Component {
         return(
             <div className="container"id="header">
                 <div>
-                <img id="header-pic" src="/images/contact.jpg" alt="" />
+                <img id="header-pic" className="responsive-img" src="/images/contact.jpg" alt="" />
                 </div>
                 <div className="row">
                     <div className="col s12">
