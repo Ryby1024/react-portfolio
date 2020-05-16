@@ -81,7 +81,13 @@ class Skills extends Component{
             id: 12,
             name: "PHP",
             image: "./images/php.png",
-        }
+        },
+        {
+            id: 13,
+            name: "Java",
+            image: "./images/java.png",
+        },
+        
     ]
 
     setSkills = () => {
